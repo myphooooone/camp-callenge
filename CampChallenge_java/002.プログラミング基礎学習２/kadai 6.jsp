@@ -1,9 +1,3 @@
-<%-- 
-    Document   : kiso4
-    Created on : 2016/09/08, 14:52:40
-    Author     : wappen
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -14,11 +8,17 @@
     <body>
         <h1>Hello World!</h1>
     </body>
-</html>
-<%
-for(int i=0;i<30; i++){
-out.println("A+");
+    <%
+int key = 1000;
+int i = 0;
 
-
-
+while(key >=100){
+    
+       key = key / 2;
+       i++;
+       out.println(i + " は " + key);
+       %><br><%
+   
+}
 %>
+</html>

@@ -1,6 +1,6 @@
 <%-- 
-    Document   : index
-    Created on : 2016/09/08, 14:48:02
+    Document   : kadai4
+    Created on : 2016/09/08, 15:48:28
     Author     : wappen
 --%>
 
@@ -16,18 +16,11 @@
     </body>
 </html>
 <%
-char moji='A';
-String message2 ="";
-
-switch(moji){
-      case 'A':
-        message2="英語";
-        break;
-      
-      case 'あ':
-        message2="日本語";
-        break;     
+for(int i=0; i<30;i++){
+    out.println("A");
 }
-out.print(message2);
+
+
 
 %>
+    

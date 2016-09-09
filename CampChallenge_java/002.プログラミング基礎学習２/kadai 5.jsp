@@ -1,6 +1,6 @@
 <%-- 
-    Document   : kadai3
-    Created on : 2016/09/08, 14:51:26
+    Document   : kadai5
+    Created on : 2016/09/08, 16:19:23
     Author     : wappen
 --%>
 
@@ -16,9 +16,12 @@
     </body>
 </html>
 <%
-    
-for(int i=0;i<20;i++){
-    out.println("8");
+int tasi=0 ;
+
+for(int i=1; i<=100; i++){
+tasi += i ;
+
 }
 
+out.println(tasi);
 %>

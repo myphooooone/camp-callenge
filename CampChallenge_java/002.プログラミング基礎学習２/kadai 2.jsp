@@ -1,6 +1,6 @@
 <%-- 
-    Document   : kiso1
-    Created on : 2016/09/08, 14:50:17
+    Document   : kadai2
+    Created on : 2016/09/08, 15:47:19
     Author     : wappen
 --%>
 
@@ -16,23 +16,18 @@
     </body>
 </html>
 <%
-    
-int num=1; String message="";
+char moji='A';
+String message2 ="";
 
+switch(moji){
+      case 'A':
+        message2="英語";
+        break;
+      
+      case 'あ':
+        message2="日本語";
+        break;     
+}
+out.print(message2);
 
-switch(num){
-    case 1:
-        message="one";
-        break;
-    
-    case 2:
-        message="two";
-        break;
-    
-    default:
-        message="想定外";
-        break;
-}       
-  out.println(message);
-       
 %>
